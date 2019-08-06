@@ -15,8 +15,6 @@ https://appexchange.salesforce.com/listingDetail?listingId=a0N30000000qb65EAA
 
 After installing, in Salesforce click the 9-box menu icon on the left side.  
 Launch the Dolly app and choose the "Clone Fields" tab.  
-
-
 Type "Account" in the first field.  A list of existing fields will appear.  
 Type "Lead" in the second field.  No list will be displayed.  
 Select the fields to clone.  
@@ -31,7 +29,7 @@ Miles using either Salesforce Sandbox or Drupal with Salesforce Connector
 
 ## Display in Exporter Directory
 
-(Directory - Private)[https://georgiadata.github.io/explorer]
+[Directory - Private](https://georgiadata.github.io/explorer)
 <!--
 List of installed packages (in the sandbox)  
 https://cs65.lightning.force.com/lightning/setup/ImportedPackage/page?address=%2F0A3&0.source=aloha  
