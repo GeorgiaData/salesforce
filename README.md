@@ -2,9 +2,9 @@
 
 The following documents our set-up for collecting leads.  
 
-## ADD FIELDS TO ACCOUNT FORM
+## Add Fields to Account Form
 
-## CLONE FIELDS TO LEAD FORM
+## Clone Fields to Lead Form
 
 The "Dolly Cloning App" by Astrea enables Salesforce admins to clone the standard and custom objects and copies the custom fields of the objects.  
 
@@ -21,13 +21,17 @@ Type "Account" in the first field.  A list of existing fields will appear.
 Type "Lead" in the second field.  No list will be displayed.  
 Select the fields to clone.  
 
-## OUTPUT ACCOUNT FIELDS AS JSON API - Miles using Sandbox
+## Output as JSON API
 
-## POPULATE LAT/LON VALUES IF BLANK - Miles
+Miles using Sandbox
 
-## DISPLAY IN EXPORTER DIRECTORY - Loren
+## Populate Lat/Lon Values
 
+Miles using either Salesforce Sandbox or Drupal with Salesforce Connector
 
+## Display in Exporter Directory
+
+(Directory - Private)[https://georgiadata.github.io/explorer]
 <!--
 List of installed packages (in the sandbox)  
 https://cs65.lightning.force.com/lightning/setup/ImportedPackage/page?address=%2F0A3&0.source=aloha  
