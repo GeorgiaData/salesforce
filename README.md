@@ -15,17 +15,19 @@ https://appexchange.salesforce.com/listingDetail?listingId=a0N30000000qb65EAA
 
 After installing, in Salesforce click the 9-box menu icon on the left side.  
 Launch the Dolly app and choose the "Clone Fields" tab.  
-Type "Account" in the first field.  A list of existing fields will appear.  
-Type "Lead" in the second field.  No list will be displayed.  
+Type "Account" in the first field and choose auto-complete.  A list of existing fields will appear.  
+Type "Lead" in the second field and choose auto-complete.  No list will be displayed.  
 Select the fields to clone.  
+
+Set the Field Level Settings to make the new fields visible on layout.  
+
+Drag the new fields onto the layout.  
 
 ## Output as JSON API
 
-Miles using Sandbox
 
 ## Populate Lat/Lon Values
 
-Miles using either Salesforce Sandbox or Drupal with Salesforce Connector
 
 ## Display in Exporter Directory
 
