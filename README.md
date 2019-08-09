@@ -13,13 +13,28 @@ https://astreait.com/dolly_cloning_application/
 Install Dolly (in sandbox first)  
 https://appexchange.salesforce.com/listingDetail?listingId=a0N30000000qb65EAA  
 
-After installing, in Salesforce click the 9-box menu icon on the left side.  
-Launch the Dolly app and choose the "Clone Fields" tab.  
+After installing, in Salesforce click the 9-box menu icon on the left side. 
+
+Important, as stated on the Dolly 
+Setup > "Remote Site Settings" > 
+
+Do a view source to get a domain from the iFrame that contains Dolly, similar to the following: 
+https://dolly.ap2.visual.force.com/
+
+In the Dolly app (9-box menu) choose the "Clone Fields" tab.  
 Type "Account" in the first field and choose auto-complete.  A list of existing fields will appear.  
 Type "Lead" in the second field and choose auto-complete.  No list will be displayed.  
 Select the fields to clone.  
 
-Set the Field Level Settings to make the new fields visible on layout.  
+Set the Field Level Settings to make the new fields visible on layout. 
+Go to settings and search for "Field Accessibility" (A subset of Security).
+
+Choose the field, 
+
+Click "hidden" in first column (Master) for Trade row.
+
+check "Visible" at top and save.
+
 
 Drag the new fields onto the layout.  
 
