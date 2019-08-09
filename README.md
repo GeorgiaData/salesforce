@@ -21,6 +21,17 @@ Setup > "Remote Site Settings" >
 Do a view source to get a domain from the iFrame that contains Dolly, similar to the following: 
 https://dolly.ap2.visual.force.com/
 
+Not sure if the above actually works, but do it first. 
+Didn't do first time.
+
+Fields appeared here:
+
+https://na60.lightning.force.com/lightning/setup/ObjectManager/Lead/FieldsAndRelationships/view
+(This may have been delayed)
+
+Click the two "visible" checkboxes for each field.
+
+
 In the Dolly app (9-box menu) choose the "Clone Fields" tab.  
 Type "Account" in the first field and choose auto-complete.  A list of existing fields will appear.  
 Type "Lead" in the second field and choose auto-complete.  No list will be displayed.  
