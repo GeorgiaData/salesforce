@@ -24,14 +24,6 @@ https://dolly.ap2.visual.force.com/
 Not sure if the above actually works, but do it first. 
 Didn't do first time.
 
-Fields appeared here:
-
-https://na60.lightning.force.com/lightning/setup/ObjectManager/Lead/FieldsAndRelationships/view
-(This may have been delayed)
-
-Click the two "visible" checkboxes for each field.
-
-Do this for both "Trade" and "GDEcD Trade Admin" (second one will already have 1 box checked)
 
 In the Dolly app (9-box menu) choose the "Clone Fields" tab.  
 Type "Account" in the first field and choose auto-complete.  A list of existing fields will appear.  
@@ -41,11 +33,19 @@ Select the fields to clone.
 Set the Field Level Settings to make the new fields visible on layout. 
 Go to settings and search for "Field Accessibility" (A subset of Security).
 
-Choose the field, 
+Fields appeared here:
 
+https://na60.lightning.force.com/lightning/setup/ObjectManager/Lead/FieldsAndRelationships/view
+(This may have been delayed)
+
+Choose the field, 
 Click "hidden" in first column (Master) for Trade row.
 
-check "Visible" at top and save.
+Click the two "visible" checkboxes for each field. (Or maybe only "Trade" is needed.)
+
+Do this for both "Trade" and "GDEcD Trade Admin" (second one will already have 1 box checked)
+
+Check "Visible" at top and save.
 
 
 Drag the new fields onto the layout.  
