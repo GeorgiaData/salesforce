@@ -31,6 +31,7 @@ https://na60.lightning.force.com/lightning/setup/ObjectManager/Lead/FieldsAndRel
 
 Click the two "visible" checkboxes for each field.
 
+Do this for both "Trade" and "GDEcD Trade Admin" (second one will already have 1 box checked)
 
 In the Dolly app (9-box menu) choose the "Clone Fields" tab.  
 Type "Account" in the first field and choose auto-complete.  A list of existing fields will appear.  
