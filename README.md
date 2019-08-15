@@ -93,11 +93,11 @@ Zip/Postal Code
 Total GA Employment - "Total Number of Employees in Georgia"
 Employees - "Total Number of Employees Worldwide"
 
-International Sales Contact - "International Sales Contact Point of Contact" Help text: "Please provide name and phone"
+International Sales Contact - "International Sales Point of Contact" Help text: "Please provide name and phone"
 
 Industries Trade
 
-Company Description - Becomes Brief Company Description
+Company Description - "Brief Company Description"
 
 Description of Product or Service - "For display in exporter directory (255 char max)"
 
@@ -105,7 +105,7 @@ Keywords - Help text: "Please provide keywords separated by commas to describe y
 
 GA Exporter - "Are you currently exporting?"
 
-HS Code - "Comma separated" Text above "Please provide the 6-digit HS code for any products you currently export. Do not use periods or commas to separate digits."
+HS Code - "Comma separated" Text above "Please provide the 6-digit HS code for any products you currently export. Do not use periods or commas to separate digits within each code."
 
 NAICS - "Comma separated"
 Current Export Countries (Select all that apply)
@@ -121,6 +121,10 @@ International Sales Partners - "Are you currently working with any external orga
 
 Comments (first one of two) - "Comments, Questions and Feedback"
 
+Lead Source (Default to Trade Directory) - hidden
+
+Directories - hidden, default to Exporter Directory
+
 
 SUBTITLE: Directory Consent
 
@@ -128,7 +132,6 @@ Yes/No - By clicking this box, I acknowledge that I have read and agree to the t
 
 Yes/No - By clicking this box, I hereby attest that the information that I am submitting is true and correct.
 
-Lead Source (Default to Trade Directory) - hidden
 
 
 
