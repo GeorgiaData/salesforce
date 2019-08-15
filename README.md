@@ -3,9 +3,7 @@
 The following documents our set-up for collecting leads.  Collecting leads externally allows states to avoid the $5 per user per month fee that applies to contact added to Saleforce communities.  
 
 
-
-
-## 1. Add Fields in Salesforce
+## Add Fields in Salesforce
 
 Add Fields to Account Form then Clone Fields to Lead Form
 
@@ -96,15 +94,14 @@ Industries Trade
 
 Company Description - Becomes Brief Company Description
 
-Products Description -  "Products Self Reported" appears only on Account page in Salesforce. - NOT FOUND YET
-
-Description of Product or Service - Already in the Lead list, do we need other?
-(255 char max) "For display in exporter directory"
+Description of Product or Service - "For display in exporter directory (255 char max)"
 
 Keywords - Help text: "Please provide keywords separated by commas to describe your product(s) and/or service(s)."
+
 GA Exporter - "Are you currently exporting?"
 
 HS Code - "Comma separated" Text above "Please provide the 6-digit HS code for any products you currently export. Do not use periods or commas to separate digits."
+
 NAICS - "Comma separated"
 Current Export Countries (Select all that apply)
 
@@ -117,7 +114,7 @@ Lead Time - "How far in advance do you plan for participation in a trade show?"
 
 International Sales Partners - "Are you currently working with any external organizations to support your international sales strategy?"
 
-Comments (first one of two)
+Comments (first one of two) - "Comments, Questions and Feedback"
 
 
 SUBTITLE: Directory Consent
