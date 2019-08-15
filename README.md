@@ -180,7 +180,7 @@ Top 3 Market Preference
 Type of Operation
 Unique produce description
 Web Source
-competive advantage
+competitive advantage
 opentext
 
 ## Output as JSON API
