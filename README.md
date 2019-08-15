@@ -105,9 +105,9 @@ Keywords - Help text: "Please provide keywords separated by commas to describe y
 
 GA Exporter - "Are you currently exporting?"
 
-HS Code - "Comma separated" Text above "Please provide the 6-digit HS code for any products you currently export. Do not use periods or commas to separate digits within each code."
+HS Codes - "Comma separated" Text above "Please provide the 6-digit HS code for any products you currently export. Do not use periods or commas to separate digits within each code."
 
-NAICS - "Comma separated"
+NAICS - "NAICS Industry Codes" - "Comma separated"
 Current Export Countries (Select all that apply)
 
 Target Markets - "Target markets for next 2-3 years (select all that apply)"
@@ -119,7 +119,7 @@ Lead Time - "How far in advance do you plan for participation in a trade show?"
 
 International Sales Partners - "Are you currently working with any external organizations to support your international sales strategy?"
 
-Comments (first one of two) - "Comments, Questions and Feedback"
+Comments (first one of two) - "Questions and Comments"
 
 Lead Source (Default to Trade Directory) - hidden
 
