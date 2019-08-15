@@ -1,6 +1,6 @@
 # Salesforce
 
-The following documents our setup for collecting leads. Collecting leads externally allows the state to avoid the $5 per user per month fee that applies to contacts that self-register using Saleforce communities.  
+The following documents our setup for saving Exporter Directory registration in Salesforce.  
 
 
 ## Add Fields in Salesforce
