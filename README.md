@@ -70,9 +70,10 @@ Form setup:
 To add more fields:
     Click Connectors (plug icon) > Configure
 
-If adding new fields in SalesForce.
+To associate a new field from SalesForce, manually add the field to the FormAssembly form first. Then associate in the Connectors section. For multi-select fields, copy the fetched option list (countries) within the Connectors section and manually paste the options list.
+
 In FormAssembly Connections click "Go to > Get New Salesforce Objects"
-Cut and paste the multi-select list from the Connectors page into the Build page.
+Cut and paste the multi-select list from the Connectors page back into the Build page.
 
 
 
@@ -104,7 +105,7 @@ International Sales Contact - "International Sales Point of Contact" Help text: 
 
 Industries Trade
 
-Industries Other - "If your industry is not represented in our category list, please enter additional categories describing your company. Separate categories with commas using up to 255 characters total."
+Industries Other - "If your industry is not represented in the options above, please enter additional categories describing your company. Separate multiple categories with commas using up to 255 characters total."
 
 Company Description - "Brief Company Description"
 
