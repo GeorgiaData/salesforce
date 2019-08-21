@@ -71,6 +71,8 @@ To add more fields:
     Click Connectors (plug icon) > Configure
     
 
+NOTE: The current form "help tips" differ slightly following updates from Maxine. 
+
 EXPORTER FORM
 Retain these from Lead. Require first 12, except mobile phone.
 
@@ -97,6 +99,8 @@ International Sales Contact - "International Sales Point of Contact" Help text: 
 
 Industries Trade
 
+Industries Trade Other - "If your industry is not represented in our category list, enter one or more additional categories separated by commas, with up to 255 characters."
+
 Company Description - "Brief Company Description"
 
 Description of Product or Service - "For display in exporter directory (255 char max)"
@@ -108,13 +112,17 @@ GA Exporter - "Are you currently exporting?"
 HS Codes - "Comma separated" Text above "Please provide the 6-digit HS code for any products you currently export. Do not use periods or commas to separate digits within each code."
 
 NAICS - "NAICS Industry Codes" - "Comma separated"
-Current Export Countries (Select all that apply)
+
+Current Export Countries - (Select all that apply)
 
 Target Markets - "Target markets for next 2-3 years (select all that apply)"
 
 International Business Objectives
+
 International Trade Shows - "International trade shows you plan to participate in over the next 2 years"
+
 Domestic Trade Shows - "Domestic trade shows you plan to participate in over the next 2 years"
+
 Lead Time - "How far in advance do you plan for participation in a trade show?"
 
 International Sales Partners - "Are you currently working with any external organizations to support your international sales strategy?"
