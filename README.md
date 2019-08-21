@@ -70,10 +70,7 @@ Form setup:
 To add more fields:
     Click Connectors (plug icon) > Configure
 
-To associate a new field from SalesForce, manually add the field to the FormAssembly form first. Then associate in the Connectors section. For multi-select fields, copy the fetched option list (countries) within the Connectors section and manually paste the options list.
-
-In FormAssembly Connections click "Go to > Get New Salesforce Objects"
-Cut and paste the multi-select list from the Connectors page back into the Build page.
+To associate a new field from SalesForce, manually add the field to the FormAssembly form first. Then associate in the Connectors section. For multi-select fields, copy the fetched option list (countries) within the Connectors section and manually paste the options list back into the Build page. To load the list for a new field, you may need to click "Go to > Get New Salesforce Objects" in FormAssembly Connections.
 
 
 
