@@ -197,8 +197,12 @@ Web Source
 competitive advantage
 opentext
 
+
+To associate a new field from the Lead object to the Account object, click "Map Lead Files" in the upper right on [Setup > Object Manager > Lead](https://na60.lightning.force.com/lightning/setup/ObjectManager/Lead/FieldsAndRelationships/view)  
+
 ## Output as JSON API
 
+[Report - Private](https://na60.salesforce.com/00O0c000009YuiM)  
 
 ## Populate Lat/Lon Values
 
@@ -211,3 +215,19 @@ opentext
 Addition notes reside in the private repo:  
 documentation/salesforce  
 -->
+
+## Bug Fix
+
+If picklist field values are being submitted as one line containing commas, 
+delete and reconnect the fields in the Form Assembly Facebook Connector.  (Leave them on the frontend form.)
+
+https://help.formassembly.com/help/348283-field-mapping
+
+Picklist Fields:  
+
+Industries Trade - Restricted last week  
+Current Export Countries - Restricted Monday  
+Target Markets  
+International Business Objectives  
+International Sales Partners - "Are you currently working with any external organizations..."  
+
