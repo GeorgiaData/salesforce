@@ -58,6 +58,7 @@ Drag the new fields onto the layout.
 
 ## Form Assembly Setup
 
+<pre>
 Send lead from Form Assembly to Salesforce Objects
 https://www.formassembly.com/blog/tutorial-quickly-create-a-form-to-populate-any-salesforce-object/
 
@@ -200,6 +201,25 @@ opentext
 
 To associate a new field from the Lead object to the Account object, click "Map Lead Files" in the upper right on [Setup > Object Manager > Lead](https://na60.lightning.force.com/lightning/setup/ObjectManager/Lead/FieldsAndRelationships/view)  
 
+
+Special: To update into an existing field like Account.Description, use Leigh Anna Geraghty's solution here:
+https://success.salesforce.com/answers?id=9063A000000DoY4QAK
+
+Enter "Processes" in the Quick Find box and choose "Process Builder".
+"Set Account Description" instead of "Set Account Type"
+
+Used the following video: Process Builder: Lead Conversion
+https://www.youtube.com/watch?v=ceHAqkx7m0I
+
+The "Account Description" field is not in alphabetical order.
+
+So this is not true:
+
+"You need to create the another custom field on the Contact object, because you cannot map custom filed to a standard field."
+https://success.salesforce.com/answers?id=9063000000158TeAAI
+
+
+
 ## Output as JSON API
 
 [Report - Private](https://na60.salesforce.com/00O0c000009YuiM)  
@@ -230,4 +250,4 @@ Current Export Countries - Restricted Monday
 Target Markets  
 International Business Objectives  
 International Sales Partners - "Are you currently working with any external organizations..."  
-
+</pre>
