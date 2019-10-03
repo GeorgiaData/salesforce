@@ -2,10 +2,23 @@
 
 The following documents our setup for saving Exporter Directory registration in Salesforce.  
 
+## Output as JSON API
 
-## Add Fields in Salesforce
+[Report - Private](https://na60.salesforce.com/00O0c000009YuiM)  
 
-Add Fields to Account Form then Clone Fields to Lead Form
+
+## Display in Exporter Directory
+
+[Directory - Private](https://georgiadata.github.io/explorer)
+
+<!--
+Addition notes reside in the private repo:  
+documentation/salesforce  
+-->
+
+## Copy Fields from Account to Lead Object using Dolly
+
+Add Fields to Account Form then Clone Fields to Lead Form. This is helpful if you are moving a lot of fields.  For only a few, it's easier to do manually.  
 
 The "Dolly Cloning App" by Astrea enables Salesforce admins to clone the standard and custom objects and copies the custom fields of the objects.  
 <!--
@@ -17,19 +30,19 @@ https://appexchange.salesforce.com/servlet/servlet.FileDownload?file=00P3A00000a
 -->
 https://astreait.com/dolly_cloning_application/  
 
+<span style="border:1px solid #ccc">
+The following may not be necessary:
+
 Install Dolly (in sandbox first)  
 https://appexchange.salesforce.com/listingDetail?listingId=a0N30000000qb65EAA  
 
-After installing, in Salesforce click the 9-box menu icon on the left side. 
+After installing, to go to the app in Salesforce, click the 9-box menu icon on the left side. 
 
-Important, as stated on the Dolly app home page, go to:  
-Setup > "Remote Site Settings"
+The Dolly app home page says to go to  "Setup > Remote Site Settings"
 
 Do a view source to get a domain from the iFrame that contains Dolly, similar to the following: 
 https://dolly.ap2.visual.force.com/
-
-Not sure if the above actually works, but do it first. 
-Didn't do first time.
+</span>
 
 In the Dolly app (9-box menu) choose the "Clone Fields" tab.  
 Type "Account" in the first field and choose auto-complete.  A list of existing fields will appear.  
@@ -54,6 +67,24 @@ Do this for both "Trade" and "GDEcD Trade Admin" (second one will already have 1
 Check "Visible" at top and save.
 
 Drag the new fields onto the layout.  
+
+
+## Associate fields in Lead Object to Account object
+
+To associate a new field from the Lead object to the Account object, click "Map Lead Files" in the upper right on [Setup > Object Manager > Lead](https://na60.lightning.force.com/lightning/setup/ObjectManager/Lead/FieldsAndRelationships/view).  This is still necessary after running Dolly to copy the field names.  
+
+## Some Fields can NOT be associated, so populate with "Process Builder"
+
+The Account.Description field can not be updated through an associatione.  It does not appear in the dropdown selections. So use Leigh Anna Geraghty's solution here:  
+https://success.salesforce.com/answers?id=9063A000000DoY4QAK  
+
+Enter "Processes" in the Quick Find box and choose "Process Builder".
+"Set Account Description" instead of "Set Account Type"
+
+Used the following video: Process Builder: Lead Conversion
+https://www.youtube.com/watch?v=ceHAqkx7m0I
+
+The "Account Description" field is NOT in alphabetical order, but it's there.  
 
 
 ## Form Assembly Setup
@@ -197,49 +228,14 @@ Unique produce description
 Web Source
 competitive advantage
 opentext
+</pre>
 
 
-To associate a new field from the Lead object to the Account object, click "Map Lead Files" in the upper right on [Setup > Object Manager > Lead](https://na60.lightning.force.com/lightning/setup/ObjectManager/Lead/FieldsAndRelationships/view)  
-
-
-Special: To update into an existing field like Account.Description, use Leigh Anna Geraghty's solution here:
-https://success.salesforce.com/answers?id=9063A000000DoY4QAK
-
-Enter "Processes" in the Quick Find box and choose "Process Builder".
-"Set Account Description" instead of "Set Account Type"
-
-Used the following video: Process Builder: Lead Conversion
-https://www.youtube.com/watch?v=ceHAqkx7m0I
-
-The "Account Description" field is not in alphabetical order.
-
-So this is not true:
-
-"You need to create the another custom field on the Contact object, because you cannot map custom filed to a standard field."
-https://success.salesforce.com/answers?id=9063000000158TeAAI
-
-
-
-## Output as JSON API
-
-[Report - Private](https://na60.salesforce.com/00O0c000009YuiM)  
-
-## Populate Lat/Lon Values
-
-
-## Display in Exporter Directory
-
-[Directory - Private](https://georgiadata.github.io/explorer)
-
-<!--
-Addition notes reside in the private repo:  
-documentation/salesforce  
--->
-
-## Bug Fix
+## Bug Fix for picklist field values sent as one comma separted field
 
 If picklist field values are being submitted as one line containing commas, 
-delete and reconnect the fields in the Form Assembly Facebook Connector.  (Leave them on the frontend form.)
+delete and reconnect the fields in the Form Assembly Facebook Connector. 
+(Leave them on the frontend form.)  
 
 https://help.formassembly.com/help/348283-field-mapping
 
@@ -250,4 +246,4 @@ Current Export Countries - Restricted Monday
 Target Markets  
 International Business Objectives  
 International Sales Partners - "Are you currently working with any external organizations..."  
-</pre>
+
