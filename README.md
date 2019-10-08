@@ -247,3 +247,32 @@ Target Markets
 International Business Objectives  
 International Sales Partners - "Are you currently working with any external organizations..."  
 
+
+## Upload
+
+This is temporary until we automate pulling from SalesForce to a static file.  
+
+You can add a new export.csv file by dragging it onto this page then click "commit changes":  
+
+https://github.com/GeorgiaData/display/upload/master/products/exporters
+
+
+HOW TO RESTORE PREVIOUS FILES:  
+
+Click "history" on the file's GitHub page:  
+
+https://github.com/GeorgiaData/display/blob/master/products/exporters/export.csv  
+
+
+Click the <> symbol next to a previous version of the file.  
+
+Navigate to the older version of a file in products/exporters/  
+
+Download the older file and re-upload it to make it the active file.  
+
+
+When you're looking at the older files, you'll see "tree" in the dropdown.  
+
+Choose "Master" in that dropdown to return to the active files before uploading.  
+
+
