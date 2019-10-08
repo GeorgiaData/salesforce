@@ -250,11 +250,11 @@ International Sales Partners - "Are you currently working with any external orga
 
 ## Upload
 
-This is temporary until we automate pulling from SalesForce to a static file.  
-
 You can add a new export.csv file by dragging it onto this page then click "commit changes":  
 
 https://github.com/GeorgiaData/display/upload/master/products/exporters
+
+Manually adding is temporary until we automate pulling from SalesForce to a static file.  
 
 
 HOW TO RESTORE PREVIOUS FILES:  
