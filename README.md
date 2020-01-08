@@ -57,6 +57,9 @@ Note to Admins: To associate a new field from SalesForce, manually add the field
 <pre>
 NOTE: The current form "help tips" differ slightly following updates from Maxine. 
 
+For Abbey's "Trade Lead" form, we used inspect in the browser in Salesforce to get the Record Type ID.  You can also get it here:
+http://www.salesforcegeneral.com/salesforce-articles/salesforce-tip-simple-ways-to-find-record-type-id.html
+
 EXPORTER FORM
 Retain these from Lead. Require first 12, except mobile phone.
 
@@ -166,7 +169,7 @@ Partner in Market
 PercentageSalesExported
 Percent product/solution
 Rating
-Record Type ID
+Record Type ID - Only used for "Trade Lead" form.
 Regions
 Salutation
 Status
