@@ -41,23 +41,20 @@ The "Account Description" field is NOT in alphabetical order, but it's there.
 
 ## Form Assembly Setup
 
+Send lead from Form Assembly to Salesforce Objects - [Tutorial](https://www.formassembly.com/blog/tutorial-quickly-create-a-form-to-populate-any-salesforce-object/)  
+
+To begin:  
+	Import > Import from Salesforce  
+
+Form setup:  
+    Choose the theme "Copy of Sky"  
+
+To add more fields:  
+    Click Connectors (plug icon) > Configure  
+
+Note to Admins: To associate a new field from SalesForce, manually add the field to the FormAssembly form first. Then associate in the Connectors section. For multi-select fields, copy the fetched option list (countries) within the Connectors section and manually paste the field's options list back into the Build page. To load the list for a newly added Salesforce field, click "Go to > Get New Salesforce Objects" in FormAssembly Connections.  
+
 <pre>
-Send lead from Form Assembly to Salesforce Objects
-https://www.formassembly.com/blog/tutorial-quickly-create-a-form-to-populate-any-salesforce-object/
-
-To begin:
-	Import > Import from Salesforce
-
-Form setup:
-    Choose the theme "Copy of Sky"
-
-To add more fields:
-    Click Connectors (plug icon) > Configure
-
-Note to Admins: To associate a new field from SalesForce, manually add the field to the FormAssembly form first. Then associate in the Connectors section. For multi-select fields, copy the fetched option list (countries) within the Connectors section and manually paste the field's options list back into the Build page. To load the list for a newly added Salesforce field, click "Go to > Get New Salesforce Objects" in FormAssembly Connections.
-
-
-
 NOTE: The current form "help tips" differ slightly following updates from Maxine. 
 
 EXPORTER FORM
