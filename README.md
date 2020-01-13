@@ -211,8 +211,6 @@ Manually adding is temporary until we automate pulling from SalesForce to a stat
 
 HOW TO RESTORE PREVIOUS FILES:  
 
-(THus far only used for Trade International Lead)
-
 Click "history" on the file's GitHub page:  
 
 https://github.com/GeorgiaData/display/blob/master/products/exporters/export.csv  
@@ -231,6 +229,8 @@ Choose "Master" in that dropdown to return to the active files before uploading.
 
 
 ## Associate Lead to a Queue
+
+(Thus far only used for Trade International Lead)
 
 Trade International Lead - from our international contractors.  
 
