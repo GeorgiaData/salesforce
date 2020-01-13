@@ -211,6 +211,8 @@ Manually adding is temporary until we automate pulling from SalesForce to a stat
 
 HOW TO RESTORE PREVIOUS FILES:  
 
+(THus far only used for Trade International Lead)
+
 Click "history" on the file's GitHub page:  
 
 https://github.com/GeorgiaData/display/blob/master/products/exporters/export.csv  
@@ -228,3 +230,23 @@ When you're looking at the older files, you'll see "tree" in the dropdown.
 Choose "Master" in that dropdown to return to the active files before uploading.  
 
 
+## Associate Lead to a Queue
+
+Trade International Lead - from our international contractors.  
+
+To make a queue: Setup > Users Queues  
+
+Click new  
+
+Added "Trade International Lead"  
+Left email and checkbox blank  
+
+Select Object: Lead  
+
+Select Role and Subordinate: Trade Director  
+
+Next go to Lead Assignment Rule
+Automatically associate sources containing "Trade Intl Office"
+Click Web Leads
+Lead Source: Trade 
+Assign to Queue: Trade International Lead
