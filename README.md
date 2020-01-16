@@ -242,6 +242,9 @@ Added "Trade International Lead" (Left email and checkbox blank)
 
 Select Object and Fields > Object Manager > Lead  
 
+Feature Settings > Marketing > Lead Assignment Rules
+
+probably not needed...
 Select Role and Subordinate: Trade Director  
 
 Next go to Lead Assignment Rule
