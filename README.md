@@ -238,10 +238,9 @@ To make a queue: Setup > Users > Queues
 
 Click new  
 
-Added "Trade International Lead"  
-Left email and checkbox blank  
+Added "Trade International Lead" (Left email and checkbox blank)  
 
-Select Object: Lead  
+Select Object and Fields > Object Manager > Lead  
 
 Select Role and Subordinate: Trade Director  
 
