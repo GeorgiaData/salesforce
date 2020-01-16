@@ -234,7 +234,7 @@ Choose "Master" in that dropdown to return to the active files before uploading.
 
 Trade International Lead - from our international contractors.  
 
-To make a queue: Setup > Users Queues  
+To make a queue: Setup > Users > Queues  
 
 Click new  
 
