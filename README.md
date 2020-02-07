@@ -1,7 +1,9 @@
 # Salesforce
 
 Upcoming Jan 2021: Add Stay-in-Touch emails: [Contact Update Request by Acuerdo](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B4QhlEAF)
-  
+Beforehand, send a message from Mailchimp or Outlook to catch bouncebacks. 
+Inform recipents that email will arrive for updating their company profile.  
+Include: Contact us if this update email should go to a different recipient.  
   
 The following documents our setup for saving Exporter Directory registration in Salesforce.  
 
