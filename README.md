@@ -27,9 +27,9 @@ documentation/salesforce
 
 ## Associate fields in Lead Object to Account object
 
-[Dolly](dolly.md) can be used to clone fields, but it is not necessary since you still have to manually relate fields after cloning from Account to Lead Object.  
-
 To associate a new field from the Lead object to the Account object, click "Map Lead Files" in the upper right on [Setup > Object Manager > Lead](https://na60.lightning.force.com/lightning/setup/ObjectManager/Lead/FieldsAndRelationships/view).  This is still necessary after running Dolly to copy the field names.  
+
+[Dolly](dolly.md) can be used to clone fields, but it is not necessary since you still have to manually relate fields after cloning from Account to Lead Object.  
 
 ## Some Fields can NOT be associated, so populate with "Process Builder"
 
@@ -63,7 +63,7 @@ Note to Admins: To associate a new field from SalesForce, manually add the field
 <pre>
 NOTE: The current form "help tips" differ slightly following updates from Maxine. 
 
-For Abbey's "Trade Lead" form, we used inspect in the browser in Salesforce to get the Record Type ID.  You can also get it here:
+For Abby's "Trade Lead" form, we used inspect in the browser in Salesforce to get the Record Type ID.  You can also get it here:
 http://www.salesforcegeneral.com/salesforce-articles/salesforce-tip-simple-ways-to-find-record-type-id.html
 
 EXPORTER FORM
