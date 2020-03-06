@@ -1,6 +1,7 @@
 # Salesforce
 
-Upcoming Jan 2021: Add Stay-in-Touch emails: [Contact Update Request by Acuerdo](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B4QhlEAF)
+Upcoming Jan 2021: Add Stay-in-Touch emails: Use [Contact Update Request](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B4QhlEAF) by Acuerdo  
+
 Beforehand, send a message from Mailchimp or Outlook to catch bouncebacks. 
 Inform recipents that email will arrive for updating their company profile.  
 Include: Contact us if this update email should go to a different recipient.  
@@ -32,7 +33,7 @@ To associate a new field from the Lead object to the Account object, click "Map 
 
 ## Some Fields can NOT be associated, so populate with "Process Builder"
 
-The Account.Description field can not be updated through an associatione.  It does not appear in the dropdown selections. So use Leigh Anna Geraghty's solution here:  
+The Account.Description field can not be updated through an association.  It does not appear in the dropdown selections. So use Leigh Anna Geraghty's solution here:  
 https://success.salesforce.com/answers?id=9063A000000DoY4QAK  
 
 Enter "Processes" in the Quick Find box and choose "Process Builder".
