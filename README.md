@@ -60,7 +60,7 @@ To add more fields:
 
 Note to Admins: To associate a new field from SalesForce, manually add the field to the FormAssembly form first. Then associate in the Connectors section. For multi-select fields, copy the fetched option list (countries) within the Connectors section and manually paste the field's options list back into the Build page.  
 
-The new field will need to be "Editable" to the System Administrator role in Salesforce to appear in the "Map Another Field" list in Form Assembly. (Go to "Fields & Relations" click the field name and click "Set Field Level Security") to assign to "System Administrator" (Other button also works.)
+The new field will need to be "Editable" to the System Administrator role in Salesforce to appear in the "Map Another Field" list in Form Assembly. (Go to "Fields & Relations" click the field name and click "Set Field Level Security") to assign to "System Administrator" (The button "View Field Accessibility" also works.)
 
 To load the list for a newly added Salesforce field, click "Go to > Get New Salesforce Objects" in FormAssembly Connections.  
 
