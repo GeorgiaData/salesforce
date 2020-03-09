@@ -27,7 +27,7 @@ documentation/salesforce
 
 ## Associate fields in Lead Object to Account object
 
-To associate a new field from the Lead object to the Account object, click "Map Lead Files" in the upper right on [Setup > Object Manager > Lead](https://na60.lightning.force.com/lightning/setup/ObjectManager/Lead/FieldsAndRelationships/view).  This is still necessary after running Dolly to copy the field names.  
+To associate a new field from the Lead object to the Account object, click "Map Lead Fields" in the upper right on [Setup > Object Manager > Lead > Fields & Relationships](https://na60.lightning.force.com/lightning/setup/ObjectManager/Lead/FieldsAndRelationships/view).  This is still necessary after running Dolly to copy the field names.  
 
 [Dolly](dolly.md) can be used to clone fields, but it is not necessary since you still have to manually relate fields after cloning from Account to Lead Object.  
 
