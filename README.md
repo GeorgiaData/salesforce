@@ -5,7 +5,18 @@ Upcoming Jan 2021: Add Stay-in-Touch emails: Use [Contact Update Request](https:
 Beforehand, send a message from Mailchimp or Outlook to catch bouncebacks. 
 Inform recipents that email will arrive for updating their company profile.  
 Include: Contact us if this update email should go to a different recipient.  
-  
+ 
+
+---
+
+## Choose UTF-8 when exporting
+
+UTF-8 prevents curly quotes from appearing as question marks.  
+
+<img src="img/Salesforce-csv-UTF-8.png" style="width:100%; max-width:800px">
+
+---
+
 The following documents our setup for saving Exporter Directory registration in Salesforce.  
 
 ## Output as JSON API
