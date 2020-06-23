@@ -17,10 +17,67 @@ UTF-8 prevents curly quotes from appearing as question marks.
 
 ---
 
-The following documents our setup for saving Exporter Directory registration in Salesforce.  
+# Georgia Export Directory  
+
+## Upload from Salesforce to website  
+
+Choose UTF-8 when exporting from Salesforce.  
+
+You can add a new export.csv file by dragging it onto this page then click "commit changes":  
+
+https://github.com/GeorgiaData/display/upload/master/products/exporters
+
+Manually adding is temporary until we automate pulling from SalesForce to a static file.  
+
+
+HOW TO RESTORE PREVIOUS FILES:  
+
+Click "history" on the file's GitHub page:  
+
+https://github.com/GeorgiaData/display/blob/master/products/exporters/export.csv  
+
+
+Click the <> symbol next to a previous version of the file.  
+
+Navigate to the older version of a file in products/exporters/  
+
+Download the older file and re-upload it to make it the active file.  
+
+
+When you're looking at the older files, you'll see "tree" in the dropdown.  
+
+Choose "Master" in that dropdown to return to the active files before uploading.  
+
+
+## Associate Lead to a Queue
+
+(Thus far only used for Trade International Lead)
+
+Trade International Lead - from our international contractors.  
+
+To make a queue: Setup > Users > Queues  
+
+Click new  
+
+Added "Trade International Lead" (Left email and checkbox blank)  
+
+Select Object and Fields > Object Manager > Lead  
+
+Feature Settings > Marketing > Lead Assignment Rules
+
+probably not needed...
+Select Role and Subordinate: Trade Director  
+
+Next go to Lead Assignment Rule
+Automatically associate sources containing "Trade Intl Office"
+Click Web Leads
+Lead Source: Trade 
+Assign to Queue: Trade International Lead  
+
 
 ## Output as JSON API
 
+To do:  
 [Report - Private](https://na60.salesforce.com/00O0c000009YuiM)  
 
 
@@ -32,8 +89,6 @@ The following documents our setup for saving Exporter Directory registration in 
 Addition notes reside in the private repo:  
 documentation/salesforce  
 -->
-
- 
 
 
 ## Associate fields in Lead Object to Account object
@@ -56,7 +111,9 @@ https://www.youtube.com/watch?v=ceHAqkx7m0I
 The "Account Description" field is NOT in alphabetical order, but it's there.  
 
 
-## Form Assembly Setup
+# Form Assembly Setup
+
+We used the following to send from Form Assembly into Salesforce for the Exporter Directory.  
 
 Send lead from Form Assembly to Salesforce Objects - [Tutorial](https://www.formassembly.com/blog/tutorial-quickly-create-a-form-to-populate-any-salesforce-object/)  
 
@@ -219,57 +276,3 @@ Current Export Countries - Restricted Monday
 Target Markets  
 International Business Objectives  
 International Sales Partners - "Are you currently working with any external organizations..."  
-
-
-## Upload
-
-You can add a new export.csv file by dragging it onto this page then click "commit changes":  
-
-https://github.com/GeorgiaData/display/upload/master/products/exporters
-
-Manually adding is temporary until we automate pulling from SalesForce to a static file.  
-
-
-HOW TO RESTORE PREVIOUS FILES:  
-
-Click "history" on the file's GitHub page:  
-
-https://github.com/GeorgiaData/display/blob/master/products/exporters/export.csv  
-
-
-Click the <> symbol next to a previous version of the file.  
-
-Navigate to the older version of a file in products/exporters/  
-
-Download the older file and re-upload it to make it the active file.  
-
-
-When you're looking at the older files, you'll see "tree" in the dropdown.  
-
-Choose "Master" in that dropdown to return to the active files before uploading.  
-
-
-## Associate Lead to a Queue
-
-(Thus far only used for Trade International Lead)
-
-Trade International Lead - from our international contractors.  
-
-To make a queue: Setup > Users > Queues  
-
-Click new  
-
-Added "Trade International Lead" (Left email and checkbox blank)  
-
-Select Object and Fields > Object Manager > Lead  
-
-Feature Settings > Marketing > Lead Assignment Rules
-
-probably not needed...
-Select Role and Subordinate: Trade Director  
-
-Next go to Lead Assignment Rule
-Automatically associate sources containing "Trade Intl Office"
-Click Web Leads
-Lead Source: Trade 
-Assign to Queue: Trade International Lead
