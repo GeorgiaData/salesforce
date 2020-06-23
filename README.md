@@ -13,7 +13,7 @@ Include: Contact us if this update email should go to a different recipient.
 
 UTF-8 prevents curly quotes from appearing as question marks.  
 
-<img src="img/Salesforce-csv-UTF-8.png" style="width:100%; max-width:800px">
+<img src="img/Salesforce-csv-UTF-8.png" style="width:100%; max-width:500px">
 
 ---
 
