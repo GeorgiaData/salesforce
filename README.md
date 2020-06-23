@@ -29,8 +29,9 @@ https://github.com/GeorgiaData/display/upload/master/products/exporters
 
 Manually adding is temporary until we automate pulling from SalesForce to a static file.  
 
+---
 
-HOW TO RESTORE PREVIOUS FILES:  
+## How to revert to a previous export.csv file on GitHub:  
 
 Click "history" on the file's GitHub page:  
 
