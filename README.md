@@ -1,6 +1,6 @@
 # Salesforce
 
-Upcoming Jan 2021: Add Stay-in-Touch emails: Use [Contact Update Request](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B4QhlEAF) by Acuerdo  
+Coming up next: Add Stay-in-Touch emails: Use [Contact Update Request](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B4QhlEAF) by Acuerdo  
 
 Beforehand, send a message from Mailchimp or Outlook to catch bouncebacks. 
 Inform recipents that email will arrive for updating their company profile.  
