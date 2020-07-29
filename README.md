@@ -1,33 +1,37 @@
 # Salesforce
 
-Coming up next: Add Stay-in-Touch emails: Use [Contact Update Request](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B4QhlEAF) by Acuerdo  
+Upcoming<!-- Jan 2021-->: Add Stay-in-Touch emails: Use [Contact Update Request](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B4QhlEAF) by Acuerdo  
 
 Beforehand, send a message from Mailchimp or Outlook to catch bouncebacks. 
 Inform recipents that email will arrive for updating their company profile.  
 Include: Contact us if this update email should go to a different recipient.  
  
 
----
 
-## Choose UTF-8 when exporting
+## Display in Exporter Directory
+
+[Export](https://na60.salesforce.com/00O0c000009YuiM) - 
+[Encrypted](https://georgiadata.github.io/explorer)
+
+
+Choose Details Only, plus .csv and UTF-8 when exporting
 
 UTF-8 prevents curly quotes from appearing as question marks.  
 
 <img src="img/Salesforce-csv-UTF-8.gif" style="width:100%; max-width:500px">
 
----
+
+You can add a new export.csv file by dragging it onto [this page](https://github.com/GeorgiaData/display/upload/master/products/exporters) then click "commit changes".   
+
+<br>
+
+
 
 # Georgia Export Directory  
 
-## Upload from Salesforce to website  
+## Output as JSON API
 
-Choose UTF-8 when exporting from Salesforce.  
-
-You can add a new export.csv file by dragging it onto this page then click "commit changes":  
-
-https://github.com/GeorgiaData/display/upload/master/products/exporters
-
-Manually adding is temporary until we automate pulling from SalesForce to a static file.  
+Notes reside in documentation/salesforce  
 
 
 ## How to revert to a previous export.csv file  
@@ -75,23 +79,14 @@ Lead Source: Trade
 Assign to Queue: Trade International Lead  
 
 
-## Output as JSON API
-
-To do:  
-[Report - Private](https://na60.salesforce.com/00O0c000009YuiM)  
 
 
-## Display in Exporter Directory
 
-[Directory - Private](https://georgiadata.github.io/explorer)
-
-<!--
-Addition notes reside in the private repo:  
-documentation/salesforce  
--->
 
 
 ## Associate fields in Lead Object to Account object
+
+The following documents our setup for saving Exporter Directory registration in Salesforce.  
 
 To associate a new field from the Lead object to the Account object, click "Map Lead Fields" in the upper right on [Setup > Object Manager > Lead > Fields & Relationships](https://na60.lightning.force.com/lightning/setup/ObjectManager/Lead/FieldsAndRelationships/view).  This is still necessary after running Dolly to copy the field names.  
 
