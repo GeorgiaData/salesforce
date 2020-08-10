@@ -10,9 +10,11 @@ Include: Contact us if this update email should go to a different recipient.
 
 ## Display in Exporter Directory
 
-[Export](https://na60.salesforce.com/00O0c000009YuiM) - 
+<a href="https://na60.salesforce.com/00O0c000009YuiM" target="_blank">Export</a> - 
+<a href="https://www.georgia.org/international-trade-export" target="_blank">Directory</a>
+<!--
 [Encrypted](https://georgiadata.github.io/explorer)
-
+-->
 
 Choose Details Only, plus .csv and UTF-8 when exporting
 
