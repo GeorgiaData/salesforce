@@ -25,6 +25,8 @@ UTF-8 prevents curly quotes from appearing as question marks.
 
 You can add a new export.csv file by dragging it onto [this page](https://github.com/GeorgiaData/display/upload/master/products/exporters) then click "commit changes".   
 
+Pull changes from GeorgiaData to GeorgiaMap repo. How to: [Update your forked repos (step 5)](https://model.earth/localsite/start/)  
+
 <br>
 
 
